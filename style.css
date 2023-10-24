@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to bottom right, rgb(203, 240, 252), rgb(52, 89, 201));
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 50%;
+}
+
+p {
+    font-weight: bold;
+}
